@@ -41,7 +41,7 @@ bst_t *bst_delete(bst_t *root, bst_t *node)
 	return (parent == NULL ? node->right : root);
 	}
 
-	
+
 	if (node->right == NULL)
 	{
 		if (parent != NULL && parent->left == node)
